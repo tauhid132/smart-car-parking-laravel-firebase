@@ -42,3 +42,5 @@ Route::get('disable-card-wash-client/{id}',[App\Http\Controllers\FirebaseControl
 Route::get('disable-card-wash',[App\Http\Controllers\FirebaseController::class, 'disableCarWash'])->name('disable-car-wash');
 Route::get('open-gate',[App\Http\Controllers\FirebaseController::class, 'openGate'])->name('open-gate');
 Route::get('sms',[App\Http\Controllers\AdminController::class, 'sms']);
+
+// new changes
